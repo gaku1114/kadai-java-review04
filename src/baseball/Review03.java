@@ -13,7 +13,7 @@ public class Review03 {
         BaseBallTeam teams[] = {team01, team02, team03, team04, team05, team06};
 
         for(BaseBallTeam team: teams) {
-            team.report(team.getRate(team.getWin(),team.getLose()));
+            team.report();
         }
     }
 }
